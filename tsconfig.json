@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "strictPropertyInitialization": false,
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist"
+  },
+  "include": ["src"]
+}
