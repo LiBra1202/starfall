@@ -7,8 +7,8 @@ export class GameEngine extends Phaser.Scene
     public infoText!: Phaser.GameObjects.Text;
     public starCounterText!: Phaser.GameObjects.Text;
     public celebrationText!: Phaser.GameObjects.Text;
-    public celebrationTimer?: Phaser.Time.TimerEvent;
-    public isCelebrationActive = false;
+    private celebrationTimer?: Phaser.Time.TimerEvent;
+    private isCelebrationActive = false;
     public readonly MAX_STARS = 15;
     public stars: Phaser.Physics.Matter.Image[] = [];
     public starCount: number = 0;
